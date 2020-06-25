@@ -3,7 +3,9 @@
 ## Background
 
 This program can be used to anonymize the personal information in the text. 
-It uses the dataset ConLL2003 preprocessed on using "BERT".
+It uses the dataset ConLL2003 preprocessed on using "BERT". It uses knn as classification method. It provides both binary classification and multivarious classification.
+
+With training on the preprocessed training data, we use the knn classification to classify the words in the test data into "personal information" and other information, then we anonymize the personal information in the text.
 
 ## Requirement
 
